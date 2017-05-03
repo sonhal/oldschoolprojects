@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Group xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox layoutX="1.0" layoutY="1.0" prefHeight="403.0" prefWidth="479.0">
+         <children>
+            <Canvas height="400.0" width="400.0"/>
+            <HBox alignment="CENTER" prefHeight="5.0" prefWidth="479.0">
+               <children>
+                  <Button mnemonicParsing="false" text="Start" fx:id="start" />
+                  <Button mnemonicParsing="false" text="Stop" fx:id="stop"/>
+                  <Button mnemonicParsing="false" text="Reset" fx:id="reset"/>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER" prefHeight="36.0" prefWidth="464.0">
+               <children>
+                  <TextField alignment="CENTER" promptText="x-akse" fx:id="yakse" />
+                  <TextField alignment="CENTER" promptText="y-akse" fx:id="xakse" />
+               </children>
+            </HBox>
+         </children>
+      </VBox>
+   </children>
+</Group>

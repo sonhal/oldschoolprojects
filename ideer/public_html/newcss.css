@@ -1,0 +1,21 @@
+.navbar {
+    
+	display: flex;
+	background-color: #0A4187;
+	height: 50px;
+        
+}
+
+.myButton {
+	text-align: center;
+	padding: 15px;
+	border-right: solid 2px #F0F0F0;
+	color: white;
+	
+	transition-duration: 0.5s;
+	
+}
+
+a {
+    color: black;
+}

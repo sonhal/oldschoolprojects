@@ -1,0 +1,114 @@
+* {
+   font-family: Helvetica, sans-serif; 
+}
+
+body {
+    background-color: lightcyan;
+}
+.header {
+    background-color: silver;
+    margin: 50px;
+    padding-bottom: 20px;
+    border: 2px grey outset;
+}
+
+.header h1 {
+    padding-top: 25px;
+    text-align: center;
+}
+
+.collum {
+   background-color: lightsteelblue;
+   width: 80%;
+   margin:auto;
+}
+
+.text {
+    background-color: lightsteelblue;
+    width: 400px;
+    height:400px;
+    float: left; 
+    margin-left:10px;
+    padding: 10px;
+    border-bottom: black 2px solid;
+    border-left:black 2px solid;
+}
+
+.bilde img {
+    margin-left:10px;
+}
+
+.nav {
+    width:300px;
+    height:50px;
+    margin:auto;
+}
+
+ul {
+  list-style-type: none;
+  
+}
+
+li {
+  left: 100px;
+  height: 25px;
+  float: left;
+  margin-left:30px;
+}
+
+li a{
+    font-size: 20px;
+}
+
+li a:visited{
+  color:black;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a:hover {
+ font-size:22px;
+ color: grey;
+}
+
+li.active a {
+  font-weight: bold;
+  color: #333;
+}
+
+.bottom {
+    width:80%;
+    height:50px;
+    margin:auto;
+    padding-top: 200px;
+    position: relative;
+    bottom:0px;
+    
+    
+}
+
+.bottom p {
+    text-align: center;
+}
+
+.text2 {
+    padding: 10px;
+    width:80%;
+    height:500px;
+    padding-bottom: 40px;
+}
+
+.collum2 {
+   background-color: lightsteelblue;
+   width: 80%;
+   margin:auto;
+   height: 600px;
+   border: black 2px solid;
+  
+}
+
+.bilde2 {
+    padding-top:40px;
+}
